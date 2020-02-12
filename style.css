@@ -6,7 +6,7 @@ body{
     vertical-align: middle;
 }
 html{
-    background: radial-gradient( aqua, teal, black);
+    background: linear-gradient(white, lightblue, aqua, aquamarine, teal, green, black);
     color: white;
     height: 100%;
     text-align: center;
@@ -20,15 +20,25 @@ input{
 }
 
 button{
-    background-color: rgb(219, 146, 50);
+    background-color: blanchedalmond;
     color:  (41, 23, 0);
     border: 2px solid  black;
     margin: 2px;
     font-size: 15px;
     box-shadow: indigo 3px 3px 3px;
 }
+button:hover{
+    transition: all 1.5s;
+    background-color: brown;
+    color: white;
+}
 form, p{
-    color:rgb(236, 178, 71);
+    border: black solid 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 25px;
+    background: blanchedalmond;
+    color: black;
     font-size: 20px;
-    text-shadow: black 2px 2px 2px;
+    text-shadow: purple 2px 2px 2px;
 }
